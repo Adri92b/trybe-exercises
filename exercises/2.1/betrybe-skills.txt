@@ -1,7 +1,11 @@
 - Unix
 - Bash
 - Git
+HTML
+CSS
+=======
 - Html
 - css
 
  Testes automotizados com Jest
+
