@@ -1,10 +1,4 @@
-<!-- index.html -->
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <style>
+<style>
         h1{
             font-size: 65px;
             color: orange;
@@ -39,16 +33,3 @@
             font-size: 16px;
         }
     </style>
-  </head>
-  <body>
-    <h1>Exercícios 3.2</h1>
-    <p class="color">Qual é a sua cor favorita?</p>
-    <ul class="color">
-      <li class="amarelo">Amarelo</li>
-      <li class="vermelho">Vermelho</li>
-      <li class="marrom">Marrom</li>
-    </ul>
-
-    
-  </body>
-</html>
