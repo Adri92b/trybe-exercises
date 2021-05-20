@@ -9,8 +9,7 @@ console.log(a*b);
 console.log(a/b);
 console.log(a%b);
 
-
-// // Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.
+// Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.
  
 let x= 4;
 let y= 8; 
@@ -36,4 +35,19 @@ else if(b>a && b>c) {
 else {
   console.log ("c é maior do que a e b")
 }
+
+// Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
+
+let valor= 6
+
+if(valor>1) {
+  console.log ("positive");
+}
+else if(valor<1) {
+  console.log ("negative");
+}
+else {
+  console.log ("zero");
+}
+
 
