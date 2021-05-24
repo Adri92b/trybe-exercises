@@ -13,10 +13,13 @@ info.recorrente = "Sim";
 
 
 
-for(let dados in info) {
-    console.log(dados);
-}
+// for(let dados in info) {
+//     console.log(dados);
+// }
 
+for(let key in info) {
+    console.log(info[key])
+}
 
 
 
