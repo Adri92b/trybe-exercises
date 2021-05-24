@@ -9,4 +9,14 @@ let info = {
 
 info.recorrente = "Sim";
 
-console.log(info);
+// console.log(info);
+
+
+
+for(let dados in info) {
+    console.log(dados);
+}
+
+
+
+
