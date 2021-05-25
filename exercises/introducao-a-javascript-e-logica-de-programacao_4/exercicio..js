@@ -1,25 +1,25 @@
-// let info = {
-//     personagem: 'Margarida',
-//     origem: 'Pato Donald',
-//     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-//   };
+let info = {
+    personagem: 'Margarida',
+    origem: 'Pato Donald',
+    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  };
 
-//   console.log('Bem-vinda,' + ' ' + info.personagem);
-
-
-// info.recorrente = "Sim";
-
-// console.log(info);
+  console.log('Bem-vinda,' + ' ' + info.personagem);
 
 
+info.recorrente = "Sim";
 
-// for(let dados in info) {
-//     console.log(dados);
-// }
+console.log(info);
 
-// for(let key in info) {
-//     console.log(info[key])
-// }
+
+
+for(let dados in info) {
+    console.log(dados);
+}
+
+for(let key in info) {
+    console.log(info[key])
+}
 
 let info = {
     personagem: 'Margarida',
