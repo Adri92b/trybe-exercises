@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="campos">
+      <fieldset class="campos">
+          <label for="campoNome">Nome:</label>
+          <input type="text" required id="campoNome" maxlength="40">
+          <label for="campoEmail">Email:</label>
+          <input type="text" id="campoEmail" required maxlength="50">
+          <label for="campoEndereco">Endereço:</label>
+          <input type="text" id="campoEndereco" maxlength="200">
+          <label for="campoCpf">Cpf:</label>
+          <input type="text" id="campoCpf" required maxlength="11">
+          <label for="campoCidade">Cidade:</label>
+          <input type="text" id="campoCidade" required maxlength="28">
+      </fieldset>
+    </div>  
+    <div class="estadoSelecao">
+      <label for="selecionaEStado">Estado:</label>
+      <select name="estados" id="selecionaEStado" class="estadoSelecao">
+      </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
