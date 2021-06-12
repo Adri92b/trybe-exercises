@@ -1,0 +1,11 @@
+.campos {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    max-width: 60%;
+}
+
+.estadoSelecao {
+    display: flex;
+    max-width: 40%;
+}

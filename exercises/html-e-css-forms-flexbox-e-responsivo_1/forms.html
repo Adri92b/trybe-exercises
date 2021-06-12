@@ -8,6 +8,9 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+   <header class="titulo">
+     <h1>Forulário</h1>
+   </header>
     <div class="campos">
       <fieldset class="campos">
           <label for="campoNome">Nome:</label>
@@ -19,14 +22,32 @@
           <label for="campoCpf">Cpf:</label>
           <input type="text" id="campoCpf" required maxlength="11">
           <label for="campoCidade">Cidade:</label>
-          <input type="text" id="campoCidade" required maxlength="28">
+          <input type="text" id="campoCidade" maxlength="28" required>
+          <label for="estados">Estado:</label>
+          <select name="estados" id="estado" required></select>
+          <label for="tipo">Casa</label>
+          <input type="radio" name="tipo" id="tipo" value="casa" required>
+          <label for="tipo2">Apartamento</label>
+          <input type="radio" name="tipo" id="tipo" value="Apartamento" required>
       </fieldset>
-    </div>  
-    <div class="estadoSelecao">
-      <label for="selecionaEStado">Estado:</label>
-      <select name="estados" id="selecionaEStado" class="estadoSelecao">
-      </select>
+    </div> 
+    <div>
+      <fieldset>
+        <label for="resumo-curriculo">Insira um resumo
+        <textarea name="resumo" id="input-resumo" cols="162" rows="10" maxlength="1000" required></textarea>
+        </label>
+        <label for="input-cargo">Insira o cargo desejado:
+        <input type="text" name="cargo" id="input-cargo" maxlength="40" required> 
+        </label>
+        <label for="descrição do cargo"> Insira uma descrição do Cargo:
+        <input type="text" name="descrição do cargo" id="input-descricao" maxlength="500" required>
+        </label>
+        <label for="input-inicio">Data de inicio:
+        <input type="date" name="data-inicio" id="input-inicio">
+        </label>
+        </fieldset> 
     </div>
+  
     <script src="script.js"></script>
 </body>
 </html>
